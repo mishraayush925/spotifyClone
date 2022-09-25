@@ -95,7 +95,7 @@ document.getElementById('next').addEventListener('click', ()=>{
 
 document.getElementById('previous').addEventListener('click', ()=>{
     if(songIndex<=0){
-        songIndex = 9
+        songIndex = 9;
     }
     else{
         songIndex -= 1;
